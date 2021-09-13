@@ -29,6 +29,43 @@
     "inputs": [
       {
         "indexed": false,
+        "internalType": "uint8",
+        "name": "_action",
+        "type": "uint8"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "_tokenId",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "_amount",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "_from",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "_to",
+        "type": "address"
+      }
+    ],
+    "name": "EthTopxTransfer",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
         "internalType": "address",
         "name": "account",
         "type": "address"
@@ -235,9 +272,9 @@
       },
       {
         "indexed": false,
-        "internalType": "uint256",
-        "name": "_to",
-        "type": "uint256"
+        "internalType": "address",
+        "name": "_creator",
+        "type": "address"
       },
       {
         "indexed": false,
@@ -278,9 +315,9 @@
       },
       {
         "indexed": false,
-        "internalType": "uint256",
-        "name": "_to",
-        "type": "uint256"
+        "internalType": "address",
+        "name": "_artist",
+        "type": "address"
       },
       {
         "indexed": false,
@@ -631,34 +668,29 @@
         "type": "uint256"
       },
       {
-        "internalType": "uint256",
-        "name": "toId",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "count",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "supply",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "dropRate",
-        "type": "uint256"
-      },
-      {
         "internalType": "address",
         "name": "artist",
         "type": "address"
       },
       {
-        "internalType": "uint256",
-        "name": "artistRoyalty",
-        "type": "uint256"
+        "internalType": "uint32",
+        "name": "count",
+        "type": "uint32"
+      },
+      {
+        "internalType": "uint32",
+        "name": "supply",
+        "type": "uint32"
+      },
+      {
+        "internalType": "uint16",
+        "name": "creatorTradingRoyalty",
+        "type": "uint16"
+      },
+      {
+        "internalType": "uint16",
+        "name": "artistTradingRoyalty",
+        "type": "uint16"
       }
     ],
     "stateMutability": "view",
@@ -687,23 +719,8 @@
       },
       {
         "internalType": "uint256",
-        "name": "toId",
+        "name": "price",
         "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "count",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "supply",
-        "type": "uint256"
-      },
-      {
-        "internalType": "address",
-        "name": "seller",
-        "type": "address"
       },
       {
         "internalType": "address",
@@ -711,19 +728,49 @@
         "type": "address"
       },
       {
-        "internalType": "uint256",
-        "name": "creatorRoyalty",
-        "type": "uint256"
+        "internalType": "uint32",
+        "name": "count",
+        "type": "uint32"
       },
       {
-        "internalType": "uint256",
-        "name": "price",
-        "type": "uint256"
+        "internalType": "uint32",
+        "name": "supply",
+        "type": "uint32"
       },
       {
-        "internalType": "uint256",
+        "internalType": "uint16",
+        "name": "creatorBuyingRoyalty",
+        "type": "uint16"
+      },
+      {
+        "internalType": "uint16",
+        "name": "creatorTradingRoyalty",
+        "type": "uint16"
+      },
+      {
+        "internalType": "address",
+        "name": "artist",
+        "type": "address"
+      },
+      {
+        "internalType": "uint16",
+        "name": "artistBuyingRoyalty",
+        "type": "uint16"
+      },
+      {
+        "internalType": "uint16",
+        "name": "artistTradingRoyalty",
+        "type": "uint16"
+      },
+      {
+        "internalType": "uint64",
         "name": "release",
-        "type": "uint256"
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint16",
+        "name": "dropRate",
+        "type": "uint16"
       }
     ],
     "stateMutability": "view",
@@ -989,6 +1036,21 @@
         "internalType": "address",
         "name": "_minter",
         "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_platformTradingRoyalty",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_platformTradingUpfrontRoyalty",
+        "type": "uint256"
+      },
+      {
+        "internalType": "address",
+        "name": "_treasury",
+        "type": "address"
       }
     ],
     "name": "initialize",
@@ -1012,23 +1074,8 @@
           },
           {
             "internalType": "uint256",
-            "name": "toId",
+            "name": "price",
             "type": "uint256"
-          },
-          {
-            "internalType": "uint256",
-            "name": "count",
-            "type": "uint256"
-          },
-          {
-            "internalType": "uint256",
-            "name": "supply",
-            "type": "uint256"
-          },
-          {
-            "internalType": "address",
-            "name": "seller",
-            "type": "address"
           },
           {
             "internalType": "address",
@@ -1036,24 +1083,54 @@
             "type": "address"
           },
           {
-            "internalType": "uint256",
-            "name": "creatorRoyalty",
-            "type": "uint256"
+            "internalType": "uint32",
+            "name": "count",
+            "type": "uint32"
           },
           {
-            "internalType": "uint256",
-            "name": "price",
-            "type": "uint256"
+            "internalType": "uint32",
+            "name": "supply",
+            "type": "uint32"
+          },
+          {
+            "internalType": "uint16",
+            "name": "creatorBuyingRoyalty",
+            "type": "uint16"
+          },
+          {
+            "internalType": "uint16",
+            "name": "creatorTradingRoyalty",
+            "type": "uint16"
+          },
+          {
+            "internalType": "address",
+            "name": "artist",
+            "type": "address"
+          },
+          {
+            "internalType": "uint16",
+            "name": "artistBuyingRoyalty",
+            "type": "uint16"
+          },
+          {
+            "internalType": "uint16",
+            "name": "artistTradingRoyalty",
+            "type": "uint16"
+          },
+          {
+            "internalType": "uint64",
+            "name": "release",
+            "type": "uint64"
+          },
+          {
+            "internalType": "uint16",
+            "name": "dropRate",
+            "type": "uint16"
           },
           {
             "internalType": "uint256[]",
             "name": "lootBoxItemsIndex",
             "type": "uint256[]"
-          },
-          {
-            "internalType": "uint256",
-            "name": "release",
-            "type": "uint256"
           }
         ],
         "internalType": "struct LootBox",
@@ -1078,34 +1155,29 @@
             "type": "uint256"
           },
           {
-            "internalType": "uint256",
-            "name": "toId",
-            "type": "uint256"
-          },
-          {
-            "internalType": "uint256",
-            "name": "count",
-            "type": "uint256"
-          },
-          {
-            "internalType": "uint256",
-            "name": "supply",
-            "type": "uint256"
-          },
-          {
-            "internalType": "uint256",
-            "name": "dropRate",
-            "type": "uint256"
-          },
-          {
             "internalType": "address",
             "name": "artist",
             "type": "address"
           },
           {
-            "internalType": "uint256",
-            "name": "artistRoyalty",
-            "type": "uint256"
+            "internalType": "uint32",
+            "name": "count",
+            "type": "uint32"
+          },
+          {
+            "internalType": "uint32",
+            "name": "supply",
+            "type": "uint32"
+          },
+          {
+            "internalType": "uint16",
+            "name": "creatorTradingRoyalty",
+            "type": "uint16"
+          },
+          {
+            "internalType": "uint16",
+            "name": "artistTradingRoyalty",
+            "type": "uint16"
           }
         ],
         "internalType": "struct LootBoxItem[]",
@@ -1129,11 +1201,6 @@
     "name": "buyLootBox",
     "outputs": [
       {
-        "internalType": "bool",
-        "name": "",
-        "type": "bool"
-      },
-      {
         "internalType": "uint256",
         "name": "",
         "type": "uint256"
@@ -1152,18 +1219,7 @@
       }
     ],
     "name": "openLootBox",
-    "outputs": [
-      {
-        "internalType": "bool",
-        "name": "",
-        "type": "bool"
-      },
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
+    "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
   },
@@ -1175,19 +1231,8 @@
         "type": "uint256"
       }
     ],
-    "name": "mintLootBoxAndOpen",
-    "outputs": [
-      {
-        "internalType": "bool",
-        "name": "",
-        "type": "bool"
-      },
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
+    "name": "buyAndOpenLootBox",
+    "outputs": [],
     "stateMutability": "payable",
     "type": "function",
     "payable": true
@@ -1196,17 +1241,47 @@
     "inputs": [
       {
         "internalType": "uint256",
-        "name": "tokenId",
+        "name": "_tokenId",
         "type": "uint256"
       },
       {
         "internalType": "uint256",
-        "name": "amount",
+        "name": "_amount",
         "type": "uint256"
       }
     ],
-    "name": "getCreatorRoyaltyFromAmountForTokenId",
+    "name": "getRoyaltyInfo",
     "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      },
       {
         "internalType": "uint256",
         "name": "",
@@ -1218,14 +1293,8 @@
     "constant": true
   },
   {
-    "inputs": [
-      {
-        "internalType": "uint256",
-        "name": "tokenId",
-        "type": "uint256"
-      }
-    ],
-    "name": "getCreatorAddressForTokenId",
+    "inputs": [],
+    "name": "getTreasury",
     "outputs": [
       {
         "internalType": "address",
@@ -1234,76 +1303,6 @@
       }
     ],
     "stateMutability": "view",
-    "type": "function",
-    "constant": true
-  },
-  {
-    "inputs": [
-      {
-        "internalType": "uint256",
-        "name": "tokenId",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "amount",
-        "type": "uint256"
-      }
-    ],
-    "name": "getArtistRoyaltyFromAmountForTokenId",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function",
-    "constant": true
-  },
-  {
-    "inputs": [
-      {
-        "internalType": "uint256",
-        "name": "tokenId",
-        "type": "uint256"
-      }
-    ],
-    "name": "getArtistForTokenId",
-    "outputs": [
-      {
-        "internalType": "address",
-        "name": "",
-        "type": "address"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function",
-    "constant": true
-  },
-  {
-    "inputs": [
-      {
-        "internalType": "uint256",
-        "name": "x",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "y",
-        "type": "uint256"
-      }
-    ],
-    "name": "mulDiv",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
-    "stateMutability": "pure",
     "type": "function",
     "constant": true
   }

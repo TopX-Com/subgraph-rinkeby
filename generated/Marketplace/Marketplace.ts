@@ -10,6 +10,40 @@ import {
   BigInt
 } from "@graphprotocol/graph-ts";
 
+export class MarketplaceEthTransfer extends ethereum.Event {
+  get params(): MarketplaceEthTransfer__Params {
+    return new MarketplaceEthTransfer__Params(this);
+  }
+}
+
+export class MarketplaceEthTransfer__Params {
+  _event: MarketplaceEthTransfer;
+
+  constructor(event: MarketplaceEthTransfer) {
+    this._event = event;
+  }
+
+  get _action(): i32 {
+    return this._event.parameters[0].value.toI32();
+  }
+
+  get _tokenId(): BigInt {
+    return this._event.parameters[1].value.toBigInt();
+  }
+
+  get _amount(): BigInt {
+    return this._event.parameters[2].value.toBigInt();
+  }
+
+  get _from(): Address {
+    return this._event.parameters[3].value.toAddress();
+  }
+
+  get _to(): Address {
+    return this._event.parameters[4].value.toAddress();
+  }
+}
+
 export class OrderBought extends ethereum.Event {
   get params(): OrderBought__Params {
     return new OrderBought__Params(this);
@@ -347,7 +381,7 @@ export class BuyOrderCall__Inputs {
     this._call = call;
   }
 
-  get tokenId(): BigInt {
+  get _tokenId(): BigInt {
     return this._call.inputValues[0].value.toBigInt();
   }
 }

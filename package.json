@@ -10,13 +10,13 @@
     "create-local": "graph create --node http://localhost:8020/ topx-com/topx-rinkeby",
     "remove-local": "graph remove --node http://localhost:8020/ topx-com/topx-rinkeby",
     "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 topx-com/topx-rinkeby",
-    "auth": "graph auth https://api.thegraph.com/deploy/ <TOKEN>",
-    "graph-deploy": "graph deploy --debug --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ topx-com/topx-rinkeby"
+    "auth": "graph auth  --studio <TOKEN>",
+    "graph-deploy": "graph deploy --studio topx-rinekby-v1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@graphprotocol/graph-cli": "^0.20.0",
+    "@graphprotocol/graph-cli": "^0.21.1",
     "@graphprotocol/graph-ts": "^0.20.0"
   }
 }

@@ -7,7 +7,8 @@ dataSources:
     network: rinkeby
     source:
       abi: Topx
-      startBlock: 0
+      startBlock: 8600000
+      address: "0xF8900032cDf7a3568Aea1f77f28B533a301011aD"
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -16,6 +17,8 @@ dataSources:
         - LootBox
         - LootBoxItem
         - Token
+        - Transfer
+        - Account
       file: Topx/Topx.wasm
       abis:
         - name: IERC165Upgradeable
@@ -23,9 +26,9 @@ dataSources:
         - name: Topx
           file: Topx/contracts/Topx.json
       eventHandlers:
-        - event: addLootBox(uint256,uint256,uint256,uint256,uint256)
+        - event: addLootBox(uint256,uint256,address,uint256,uint256)
           handler: handleAddLootBox
-        - event: addLootBoxItem(uint256,uint256,uint256,uint256,uint256)
+        - event: addLootBoxItem(uint256,uint256,uint256,address,uint256)
           handler: handleAddLootBoxItem
         - event: mintLootBox(uint256,address,uint256,uint256)
           handler: handleMintLootBox
@@ -35,12 +38,15 @@ dataSources:
           handler: handleTransferSingle
         - event: TransferBatch(indexed address,indexed address,indexed address,uint256[],uint256[])
           handler: handleTransferBatch
+        - event: EthTopxTransfer(uint8,uint256,uint256,address,address)
+          handler: handleEthTopxTransfer
   - kind: ethereum/contract
     name: Marketplace
     network: rinkeby
     source:
       abi: Marketplace
-      startBlock: 0
+      startBlock: 8600000
+      address: "0xE73417F93Df91a741C505714471eBAA4c2956602"
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -51,6 +57,8 @@ dataSources:
         - Token
         - Order
         - OrderReceipt
+        - Transfer
+        - Account
       file: Topx/Topx.wasm
       abis:
         - name: Marketplace
@@ -62,3 +70,5 @@ dataSources:
           handler: handleOrderBought
         - event: OrderCanceled(uint256)
           handler: handleOrderCanceled
+        - event: MarketplaceEthTransfer(uint8,uint256,uint256,address,address)
+          handler: handleMarketplaceEthTransfer
