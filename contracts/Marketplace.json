@@ -19767,12 +19767,11 @@
     "4": {
       "events": {},
       "links": {},
-      "address": "0xE73417F93Df91a741C505714471eBAA4c2956602",
-      "transactionHash": "0x950cccf594bdc412a41f6d130f992af37545ce5a2b71319be7a8b7f981f06a85"
+      "address": "0x6Efe877e2fD0B71601a084BB280993418D764EC1"
     }
   },
   "schemaVersion": "3.4.1",
-  "updatedAt": "2021-09-13T13:55:58.613Z",
+  "updatedAt": "2021-09-22T17:03:30.139Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
