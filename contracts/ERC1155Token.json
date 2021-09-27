@@ -15874,61 +15874,61 @@
     "absolutePath": "project:/contracts/ERC1155Token.sol",
     "exportedSymbols": {
       "AccessControlEnumerableUpgradeable": [
-        1706
+        1700
       ],
       "AccessControlUpgradeable": [
-        2041
+        2035
       ],
       "AddressUpgradeable": [
-        4064
+        4058
       ],
       "ContextUpgradeable": [
-        4108
+        4102
       ],
       "ERC1155BurnableUpgradeable": [
-        3666
+        3660
       ],
       "ERC1155PausableUpgradeable": [
-        3745
+        3739
       ],
       "ERC1155Token": [
         165
       ],
       "ERC1155Upgradeable": [
-        3406
+        3400
       ],
       "ERC165Upgradeable": [
-        4357
+        4351
       ],
       "EnumerableSetUpgradeable": [
-        4968
+        4962
       ],
       "IAccessControlEnumerableUpgradeable": [
-        2066
+        2060
       ],
       "IAccessControlUpgradeable": [
-        2139
+        2133
       ],
       "IERC1155MetadataURIUpgradeable": [
-        3760
+        3754
       ],
       "IERC1155ReceiverUpgradeable": [
-        3447
+        3441
       ],
       "IERC1155Upgradeable": [
-        3569
+        3563
       ],
       "IERC165Upgradeable": [
-        4369
+        4363
       ],
       "Initializable": [
-        2185
+        2179
       ],
       "PausableUpgradeable": [
-        2298
+        2292
       ],
       "StringsUpgradeable": [
-        4311
+        4305
       ]
     },
     "id": 166,
@@ -15952,7 +15952,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 166,
-        "sourceUnit": 3407,
+        "sourceUnit": 3401,
         "src": "57:98:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -15963,7 +15963,7 @@
         "id": 3,
         "nodeType": "ImportDirective",
         "scope": 166,
-        "sourceUnit": 3746,
+        "sourceUnit": 3740,
         "src": "156:117:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -15974,7 +15974,7 @@
         "id": 4,
         "nodeType": "ImportDirective",
         "scope": 166,
-        "sourceUnit": 3667,
+        "sourceUnit": 3661,
         "src": "274:117:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -15985,7 +15985,7 @@
         "id": 5,
         "nodeType": "ImportDirective",
         "scope": 166,
-        "sourceUnit": 1707,
+        "sourceUnit": 1701,
         "src": "392:107:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -15996,7 +15996,7 @@
         "id": 6,
         "nodeType": "ImportDirective",
         "scope": 166,
-        "sourceUnit": 4109,
+        "sourceUnit": 4103,
         "src": "500:90:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -16007,7 +16007,7 @@
         "id": 7,
         "nodeType": "ImportDirective",
         "scope": 166,
-        "sourceUnit": 2186,
+        "sourceUnit": 2180,
         "src": "591:91:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -16020,7 +16020,7 @@
               "id": 8,
               "name": "Initializable",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 2185,
+              "referencedDeclaration": 2179,
               "src": "709:13:0"
             },
             "id": 9,
@@ -16032,7 +16032,7 @@
               "id": 10,
               "name": "ContextUpgradeable",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 4108,
+              "referencedDeclaration": 4102,
               "src": "724:18:0"
             },
             "id": 11,
@@ -16044,7 +16044,7 @@
               "id": 12,
               "name": "AccessControlEnumerableUpgradeable",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 1706,
+              "referencedDeclaration": 1700,
               "src": "744:34:0"
             },
             "id": 13,
@@ -16056,7 +16056,7 @@
               "id": 14,
               "name": "ERC1155BurnableUpgradeable",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 3666,
+              "referencedDeclaration": 3660,
               "src": "780:26:0"
             },
             "id": 15,
@@ -16068,7 +16068,7 @@
               "id": 16,
               "name": "ERC1155PausableUpgradeable",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 3745,
+              "referencedDeclaration": 3739,
               "src": "808:26:0"
             },
             "id": 17,
@@ -16077,40 +16077,40 @@
           }
         ],
         "contractDependencies": [
-          1706,
-          2041,
-          2066,
-          2139,
-          2185,
-          2298,
-          3406,
-          3569,
-          3666,
-          3745,
-          3760,
-          4108,
-          4357,
-          4369
+          1700,
+          2035,
+          2060,
+          2133,
+          2179,
+          2292,
+          3400,
+          3563,
+          3660,
+          3739,
+          3754,
+          4102,
+          4351,
+          4363
         ],
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 165,
         "linearizedBaseContracts": [
           165,
-          3745,
-          2298,
-          3666,
-          3406,
-          3760,
-          3569,
-          1706,
-          2041,
-          4357,
-          4369,
-          2066,
-          2139,
-          4108,
-          2185
+          3739,
+          2292,
+          3660,
+          3400,
+          3754,
+          3563,
+          1700,
+          2035,
+          4351,
+          4363,
+          2060,
+          2133,
+          4102,
+          2179
         ],
         "name": "ERC1155Token",
         "nodeType": "ContractDefinition",
@@ -16209,7 +16209,7 @@
                       "name": "__Context_init_unchained",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4085,
+                      "referencedDeclaration": 4079,
                       "src": "998:24:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
@@ -16244,7 +16244,7 @@
                       "name": "__ERC165_init_unchained",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4335,
+                      "referencedDeclaration": 4329,
                       "src": "1030:23:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
@@ -16279,7 +16279,7 @@
                       "name": "__AccessControl_init_unchained",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1743,
+                      "referencedDeclaration": 1737,
                       "src": "1061:30:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
@@ -16314,7 +16314,7 @@
                       "name": "__AccessControlEnumerable_init_unchained",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1533,
+                      "referencedDeclaration": 1527,
                       "src": "1099:40:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
@@ -16367,7 +16367,7 @@
                       "name": "__ERC1155_init_unchained",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2366,
+                      "referencedDeclaration": 2360,
                       "src": "1147:24:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$returns$__$",
@@ -16402,7 +16402,7 @@
                       "name": "__ERC1155Burnable_init_unchained",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 3599,
+                      "referencedDeclaration": 3593,
                       "src": "1182:32:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
@@ -16437,7 +16437,7 @@
                       "name": "__Pausable_init_unchained",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2229,
+                      "referencedDeclaration": 2223,
                       "src": "1222:25:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
@@ -16472,7 +16472,7 @@
                       "name": "__ERC1155Pausable_init_unchained",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 3702,
+                      "referencedDeclaration": 3696,
                       "src": "1255:32:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
@@ -16563,7 +16563,7 @@
                   "id": 28,
                   "name": "initializer",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 2184,
+                  "referencedDeclaration": 2178,
                   "src": "980:11:0"
                 },
                 "nodeType": "ModifierInvocation",
@@ -16658,7 +16658,7 @@
                         "name": "DEFAULT_ADMIN_ROLE",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1758,
+                        "referencedDeclaration": 1752,
                         "src": "1434:18:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
@@ -16673,7 +16673,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4094,
+                          "referencedDeclaration": 4088,
                           "src": "1454:10:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -16711,9 +16711,9 @@
                       "name": "_setupRole",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1701
+                        1695
                       ],
-                      "referencedDeclaration": 1701,
+                      "referencedDeclaration": 1695,
                       "src": "1423:10:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_bytes32_$_t_address_$returns$__$",
@@ -16782,9 +16782,9 @@
                       "name": "_setupRole",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1701
+                        1695
                       ],
-                      "referencedDeclaration": 1701,
+                      "referencedDeclaration": 1695,
                       "src": "1473:10:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_bytes32_$_t_address_$returns$__$",
@@ -16822,7 +16822,7 @@
                   "id": 65,
                   "name": "initializer",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 2184,
+                  "referencedDeclaration": 2178,
                   "src": "1405:11:0"
                 },
                 "nodeType": "ModifierInvocation",
@@ -16893,7 +16893,7 @@
                             "name": "DEFAULT_ADMIN_ROLE",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1758,
+                            "referencedDeclaration": 1752,
                             "src": "1559:18:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
@@ -16908,7 +16908,7 @@
                               "name": "_msgSender",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4094,
+                              "referencedDeclaration": 4088,
                               "src": "1579:10:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -16946,7 +16946,7 @@
                           "name": "hasRole",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1812,
+                          "referencedDeclaration": 1806,
                           "src": "1551:7:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$_t_bytes32_$_t_address_$returns$_t_bool_$",
@@ -17038,7 +17038,7 @@
                       "name": "_pause",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2277,
+                      "referencedDeclaration": 2271,
                       "src": "1646:6:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
@@ -17107,7 +17107,7 @@
                             "name": "DEFAULT_ADMIN_ROLE",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1758,
+                            "referencedDeclaration": 1752,
                             "src": "1711:18:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
@@ -17122,7 +17122,7 @@
                               "name": "_msgSender",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4094,
+                              "referencedDeclaration": 4088,
                               "src": "1731:10:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -17160,7 +17160,7 @@
                           "name": "hasRole",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1812,
+                          "referencedDeclaration": 1806,
                           "src": "1703:7:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$_t_bytes32_$_t_address_$returns$_t_bool_$",
@@ -17252,7 +17252,7 @@
                       "name": "_unpause",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2293,
+                      "referencedDeclaration": 2287,
                       "src": "1800:8:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
@@ -17307,8 +17307,8 @@
           },
           {
             "baseFunctions": [
-              1564,
-              2397
+              1558,
+              2391
             ],
             "body": {
               "id": 127,
@@ -17357,7 +17357,7 @@
                       "lValueRequested": false,
                       "memberName": "supportsInterface",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2397,
+                      "referencedDeclaration": 2391,
                       "src": "1971:23:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_bytes4_$returns$_t_bool_$",
@@ -17401,14 +17401,14 @@
                   "id": 116,
                   "name": "AccessControlEnumerableUpgradeable",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 1706,
+                  "referencedDeclaration": 1700,
                   "src": "1887:34:0"
                 },
                 {
                   "id": 117,
                   "name": "ERC1155Upgradeable",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 3406,
+                  "referencedDeclaration": 3400,
                   "src": "1923:18:0"
                 }
               ],
@@ -17488,8 +17488,8 @@
           },
           {
             "baseFunctions": [
-              3245,
-              3740
+              3239,
+              3734
             ],
             "body": {
               "id": 159,
@@ -17618,7 +17618,7 @@
                       "lValueRequested": false,
                       "memberName": "_beforeTokenTransfer",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 3740,
+                      "referencedDeclaration": 3734,
                       "src": "2279:26:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_address_$_t_address_$_t_array$_t_uint256_$dyn_memory_ptr_$_t_array$_t_uint256_$dyn_memory_ptr_$_t_bytes_memory_ptr_$returns$__$",
@@ -17660,14 +17660,14 @@
                   "id": 144,
                   "name": "ERC1155Upgradeable",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 3406,
+                  "referencedDeclaration": 3400,
                   "src": "2221:18:0"
                 },
                 {
                   "id": 145,
                   "name": "ERC1155PausableUpgradeable",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 3745,
+                  "referencedDeclaration": 3739,
                   "src": "2241:26:0"
                 }
               ],
@@ -17931,61 +17931,61 @@
     "absolutePath": "project:/contracts/ERC1155Token.sol",
     "exportedSymbols": {
       "AccessControlEnumerableUpgradeable": [
-        1706
+        1700
       ],
       "AccessControlUpgradeable": [
-        2041
+        2035
       ],
       "AddressUpgradeable": [
-        4064
+        4058
       ],
       "ContextUpgradeable": [
-        4108
+        4102
       ],
       "ERC1155BurnableUpgradeable": [
-        3666
+        3660
       ],
       "ERC1155PausableUpgradeable": [
-        3745
+        3739
       ],
       "ERC1155Token": [
         165
       ],
       "ERC1155Upgradeable": [
-        3406
+        3400
       ],
       "ERC165Upgradeable": [
-        4357
+        4351
       ],
       "EnumerableSetUpgradeable": [
-        4968
+        4962
       ],
       "IAccessControlEnumerableUpgradeable": [
-        2066
+        2060
       ],
       "IAccessControlUpgradeable": [
-        2139
+        2133
       ],
       "IERC1155MetadataURIUpgradeable": [
-        3760
+        3754
       ],
       "IERC1155ReceiverUpgradeable": [
-        3447
+        3441
       ],
       "IERC1155Upgradeable": [
-        3569
+        3563
       ],
       "IERC165Upgradeable": [
-        4369
+        4363
       ],
       "Initializable": [
-        2185
+        2179
       ],
       "PausableUpgradeable": [
-        2298
+        2292
       ],
       "StringsUpgradeable": [
-        4311
+        4305
       ]
     },
     "id": 166,
@@ -18009,7 +18009,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 166,
-        "sourceUnit": 3407,
+        "sourceUnit": 3401,
         "src": "57:98:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -18020,7 +18020,7 @@
         "id": 3,
         "nodeType": "ImportDirective",
         "scope": 166,
-        "sourceUnit": 3746,
+        "sourceUnit": 3740,
         "src": "156:117:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -18031,7 +18031,7 @@
         "id": 4,
         "nodeType": "ImportDirective",
         "scope": 166,
-        "sourceUnit": 3667,
+        "sourceUnit": 3661,
         "src": "274:117:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -18042,7 +18042,7 @@
         "id": 5,
         "nodeType": "ImportDirective",
         "scope": 166,
-        "sourceUnit": 1707,
+        "sourceUnit": 1701,
         "src": "392:107:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -18053,7 +18053,7 @@
         "id": 6,
         "nodeType": "ImportDirective",
         "scope": 166,
-        "sourceUnit": 4109,
+        "sourceUnit": 4103,
         "src": "500:90:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -18064,7 +18064,7 @@
         "id": 7,
         "nodeType": "ImportDirective",
         "scope": 166,
-        "sourceUnit": 2186,
+        "sourceUnit": 2180,
         "src": "591:91:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -18077,7 +18077,7 @@
               "id": 8,
               "name": "Initializable",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 2185,
+              "referencedDeclaration": 2179,
               "src": "709:13:0"
             },
             "id": 9,
@@ -18089,7 +18089,7 @@
               "id": 10,
               "name": "ContextUpgradeable",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 4108,
+              "referencedDeclaration": 4102,
               "src": "724:18:0"
             },
             "id": 11,
@@ -18101,7 +18101,7 @@
               "id": 12,
               "name": "AccessControlEnumerableUpgradeable",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 1706,
+              "referencedDeclaration": 1700,
               "src": "744:34:0"
             },
             "id": 13,
@@ -18113,7 +18113,7 @@
               "id": 14,
               "name": "ERC1155BurnableUpgradeable",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 3666,
+              "referencedDeclaration": 3660,
               "src": "780:26:0"
             },
             "id": 15,
@@ -18125,7 +18125,7 @@
               "id": 16,
               "name": "ERC1155PausableUpgradeable",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 3745,
+              "referencedDeclaration": 3739,
               "src": "808:26:0"
             },
             "id": 17,
@@ -18134,40 +18134,40 @@
           }
         ],
         "contractDependencies": [
-          1706,
-          2041,
-          2066,
-          2139,
-          2185,
-          2298,
-          3406,
-          3569,
-          3666,
-          3745,
-          3760,
-          4108,
-          4357,
-          4369
+          1700,
+          2035,
+          2060,
+          2133,
+          2179,
+          2292,
+          3400,
+          3563,
+          3660,
+          3739,
+          3754,
+          4102,
+          4351,
+          4363
         ],
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 165,
         "linearizedBaseContracts": [
           165,
-          3745,
-          2298,
-          3666,
-          3406,
-          3760,
-          3569,
-          1706,
-          2041,
-          4357,
-          4369,
-          2066,
-          2139,
-          4108,
-          2185
+          3739,
+          2292,
+          3660,
+          3400,
+          3754,
+          3563,
+          1700,
+          2035,
+          4351,
+          4363,
+          2060,
+          2133,
+          4102,
+          2179
         ],
         "name": "ERC1155Token",
         "nodeType": "ContractDefinition",
@@ -18266,7 +18266,7 @@
                       "name": "__Context_init_unchained",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4085,
+                      "referencedDeclaration": 4079,
                       "src": "998:24:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
@@ -18301,7 +18301,7 @@
                       "name": "__ERC165_init_unchained",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4335,
+                      "referencedDeclaration": 4329,
                       "src": "1030:23:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
@@ -18336,7 +18336,7 @@
                       "name": "__AccessControl_init_unchained",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1743,
+                      "referencedDeclaration": 1737,
                       "src": "1061:30:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
@@ -18371,7 +18371,7 @@
                       "name": "__AccessControlEnumerable_init_unchained",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1533,
+                      "referencedDeclaration": 1527,
                       "src": "1099:40:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
@@ -18424,7 +18424,7 @@
                       "name": "__ERC1155_init_unchained",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2366,
+                      "referencedDeclaration": 2360,
                       "src": "1147:24:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$returns$__$",
@@ -18459,7 +18459,7 @@
                       "name": "__ERC1155Burnable_init_unchained",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 3599,
+                      "referencedDeclaration": 3593,
                       "src": "1182:32:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
@@ -18494,7 +18494,7 @@
                       "name": "__Pausable_init_unchained",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2229,
+                      "referencedDeclaration": 2223,
                       "src": "1222:25:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
@@ -18529,7 +18529,7 @@
                       "name": "__ERC1155Pausable_init_unchained",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 3702,
+                      "referencedDeclaration": 3696,
                       "src": "1255:32:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
@@ -18620,7 +18620,7 @@
                   "id": 28,
                   "name": "initializer",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 2184,
+                  "referencedDeclaration": 2178,
                   "src": "980:11:0"
                 },
                 "nodeType": "ModifierInvocation",
@@ -18715,7 +18715,7 @@
                         "name": "DEFAULT_ADMIN_ROLE",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1758,
+                        "referencedDeclaration": 1752,
                         "src": "1434:18:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
@@ -18730,7 +18730,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4094,
+                          "referencedDeclaration": 4088,
                           "src": "1454:10:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -18768,9 +18768,9 @@
                       "name": "_setupRole",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1701
+                        1695
                       ],
-                      "referencedDeclaration": 1701,
+                      "referencedDeclaration": 1695,
                       "src": "1423:10:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_bytes32_$_t_address_$returns$__$",
@@ -18839,9 +18839,9 @@
                       "name": "_setupRole",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1701
+                        1695
                       ],
-                      "referencedDeclaration": 1701,
+                      "referencedDeclaration": 1695,
                       "src": "1473:10:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_bytes32_$_t_address_$returns$__$",
@@ -18879,7 +18879,7 @@
                   "id": 65,
                   "name": "initializer",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 2184,
+                  "referencedDeclaration": 2178,
                   "src": "1405:11:0"
                 },
                 "nodeType": "ModifierInvocation",
@@ -18950,7 +18950,7 @@
                             "name": "DEFAULT_ADMIN_ROLE",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1758,
+                            "referencedDeclaration": 1752,
                             "src": "1559:18:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
@@ -18965,7 +18965,7 @@
                               "name": "_msgSender",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4094,
+                              "referencedDeclaration": 4088,
                               "src": "1579:10:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -19003,7 +19003,7 @@
                           "name": "hasRole",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1812,
+                          "referencedDeclaration": 1806,
                           "src": "1551:7:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$_t_bytes32_$_t_address_$returns$_t_bool_$",
@@ -19095,7 +19095,7 @@
                       "name": "_pause",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2277,
+                      "referencedDeclaration": 2271,
                       "src": "1646:6:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
@@ -19164,7 +19164,7 @@
                             "name": "DEFAULT_ADMIN_ROLE",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1758,
+                            "referencedDeclaration": 1752,
                             "src": "1711:18:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
@@ -19179,7 +19179,7 @@
                               "name": "_msgSender",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4094,
+                              "referencedDeclaration": 4088,
                               "src": "1731:10:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -19217,7 +19217,7 @@
                           "name": "hasRole",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1812,
+                          "referencedDeclaration": 1806,
                           "src": "1703:7:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$_t_bytes32_$_t_address_$returns$_t_bool_$",
@@ -19309,7 +19309,7 @@
                       "name": "_unpause",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2293,
+                      "referencedDeclaration": 2287,
                       "src": "1800:8:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
@@ -19364,8 +19364,8 @@
           },
           {
             "baseFunctions": [
-              1564,
-              2397
+              1558,
+              2391
             ],
             "body": {
               "id": 127,
@@ -19414,7 +19414,7 @@
                       "lValueRequested": false,
                       "memberName": "supportsInterface",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2397,
+                      "referencedDeclaration": 2391,
                       "src": "1971:23:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_bytes4_$returns$_t_bool_$",
@@ -19458,14 +19458,14 @@
                   "id": 116,
                   "name": "AccessControlEnumerableUpgradeable",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 1706,
+                  "referencedDeclaration": 1700,
                   "src": "1887:34:0"
                 },
                 {
                   "id": 117,
                   "name": "ERC1155Upgradeable",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 3406,
+                  "referencedDeclaration": 3400,
                   "src": "1923:18:0"
                 }
               ],
@@ -19545,8 +19545,8 @@
           },
           {
             "baseFunctions": [
-              3245,
-              3740
+              3239,
+              3734
             ],
             "body": {
               "id": 159,
@@ -19675,7 +19675,7 @@
                       "lValueRequested": false,
                       "memberName": "_beforeTokenTransfer",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 3740,
+                      "referencedDeclaration": 3734,
                       "src": "2279:26:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_address_$_t_address_$_t_array$_t_uint256_$dyn_memory_ptr_$_t_array$_t_uint256_$dyn_memory_ptr_$_t_bytes_memory_ptr_$returns$__$",
@@ -19717,14 +19717,14 @@
                   "id": 144,
                   "name": "ERC1155Upgradeable",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 3406,
+                  "referencedDeclaration": 3400,
                   "src": "2221:18:0"
                 },
                 {
                   "id": 145,
                   "name": "ERC1155PausableUpgradeable",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 3745,
+                  "referencedDeclaration": 3739,
                   "src": "2241:26:0"
                 }
               ],
@@ -19990,7 +19990,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.1",
-  "updatedAt": "2021-09-23T15:46:09.479Z",
+  "updatedAt": "2021-09-27T17:23:04.250Z",
   "devdoc": {
     "kind": "dev",
     "methods": {
